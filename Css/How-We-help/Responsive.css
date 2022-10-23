@@ -1,0 +1,221 @@
+
+
+@media all and (max-width: 1150px) { 
+  .datafactory-right-text{
+    max-width: 400px;
+  }
+}
+
+@media all and (max-width: 1060px) { 
+  .datafactory-right-text{
+    max-width: 350px;
+  }
+}
+
+@media all and (max-width: 960px) { 
+  .datafactory-right-text{
+    max-width: 320px;
+  }
+}
+
+
+
+
+@media all and (max-width: 1375px) {
+  .pc-container {
+    top: 26rem;
+    right: 1rem;
+  }
+}
+
+
+
+@media all and (max-width: 1250px) {
+  .how-we-help-container h3 {
+    font-size: 50px;
+  }
+  /* DATAFACTORY */
+
+  .datafactory-right-text {
+    width: 430px;
+    font-size: 12px;
+  }
+
+  .datafactory-right-text h2 {
+    font-size: 26px;
+  }
+  .datafactory-container-left img {
+    padding-left: 4rem;
+    object-fit: contain;
+    width: 100%;
+  }
+
+  /* PROPILOT */
+}
+
+@media all and (max-width: 1200px){ 
+  .pc-container-left {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 50%;
+  }
+  
+  .carre-1 {
+    height: 50%;
+  }
+  
+  
+  .S-circle-1 {
+    position: relative;
+    right: 80px;
+    width: 35px;
+   
+  }
+  
+  .M-circle-1 {
+    position: relative;
+    right: 25px; 
+    width:77px;
+    
+  }
+  
+  .L-circle-1 {
+    position: relative;
+    width: 90px;
+    left: 40px;
+    bottom: 0px;
+    
+  }
+  
+  
+  .pc-container-right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* padding: 0 1.5rem 0 2rem; */
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .pc-text {
+    padding: 0 1.5rem 0 1.5rem;
+    font-size: 9px;
+  }
+  
+  
+  .carre-2 {
+    height: 50%;
+  }
+  
+  
+  .S-circle-2 { 
+    position: relative;
+    right: 100px;
+    width: 35px;
+  }
+  
+  .M-circle-2{
+    position: relative;
+    right: 37px; 
+    bottom: 23px;
+    width:60px;
+  }
+  
+  .L-circle-2 { 
+    position: relative;
+    left: 48px;
+    bottom: 28px;
+    width: 120px;
+  }
+  
+}
+
+
+@media all and (max-width: 1015px) { 
+  .pc-container {
+    top: 26rem;
+    right: 1.5rem;
+  }
+
+  .pc-text {
+    padding: 0 1.5rem 0 1.5rem;
+    font-size: 8px;
+  }
+}
+
+
+
+
+/* STEP 02 NONE */
+
+/* @media all and (max-width: 1300px) {
+  .carre-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    width: 80%;
+    max-height: 14rem;
+    border: 3px solid #f7fafb;
+  }
+
+  .pc-container-right {
+    display: none;
+  }
+
+  .pc-container-left{
+    justify-content: center;
+    width: 100%;
+  }
+
+  .pc-container {
+    display: flex;
+    font-size: 9px;
+    position: relative;
+    top: 26rem;
+    margin-left: 7.3rem;
+    width: 65%;
+    max-height: 26rem;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .pc-container-left {
+    width: 100%;
+  }
+}
+
+
+@media all and (max-width: 1200px) {
+
+  .pc-container {
+    margin-left: 6.8rem;
+  }
+
+}
+
+@media all and (max-width: 1100px) {
+
+  .pc-container {
+    margin-left: 6rem;
+  }
+
+}
+
+@media all and (max-width: 1100px) {
+
+  .pc-container {
+    margin-left: 5.5rem;
+  }
+
+}
+
+
+
+@media all and (max-width: 900px) {
+
+  .pc-container {
+    margin-left: 5rem;
+  }
+
+} */

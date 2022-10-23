@@ -1,0 +1,244 @@
+.White-bg {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  background-color: rgb(255, 255, 255);
+}
+
+.They-trust-dfakto {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  margin: 3rem 0rem 3rem 0rem;
+  height: 902px;
+  /* width: 100vw; */
+  width: 1440px;
+  background-color: white;
+  color: black;
+}
+
+.Ellipse-slider {
+  position: absolute;
+  width: 23%;
+  right: 8rem;
+}
+
+.title-h4 {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  width: 100%;
+  height: 4rem;
+  color: #072038;
+}
+
+.title-h5 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 2rem;
+  width: 100%;
+  height: 4rem;
+  color: #072038;
+}
+
+.They-trust-dfakto h4 {
+  margin: 0;
+  font-size: 48px;
+}
+
+.They-trust-dfakto h5 {
+  font-size: 36px;
+  margin: 0;
+}
+
+/* SLIDER */
+
+.Sliders {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 2rem;
+  margin: 0 3rem 0 3rem;
+  height: 600px;
+  width: 100%;
+  border-radius: 25px;
+  background-color: #406469;
+}
+
+.slider {
+  position: fixed;
+}
+
+.slider.active {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 1440px;
+  height: 600px;
+  border-radius: 25px 0 0 25px;
+  animation: sliderAnimation 1.5s;
+}
+
+@keyframes sliderAnimation {
+  0% {
+    opacity: 70%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+/* SLIDER LEFT */
+
+.slider-left-container {
+  display: flex;
+  justify-content: center;
+  display: flex;
+  width: 50%;
+  overflow: hidden;
+  object-fit: contain;
+  border-radius: 25px 0 0 25px;
+}
+
+.slider-left-container img { 
+  object-fit: cover;
+  width: 100%;
+}
+
+.slider-left-container button {
+  position: absolute;
+  top: 290px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #26C1D9;
+  border: 0;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.slider-left-container i  {
+ font-size: 32px ;
+ color: white;
+}
+
+
+
+.gradiant {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  background: rgb(7, 32, 56);
+  background: linear-gradient(
+    267deg,
+    rgba(7, 32, 56, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  border-radius: 25px 0 0 25px
+}
+
+
+/* SLIDER RIGHT */
+
+.slider-right-content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  padding-left: 3rem;
+}
+
+.slider-right-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  border-radius: 0 25px 25px 0;
+  background: rgb(7, 32, 56);
+  color: white;
+}
+
+.slider-right-container img {
+  width: 100px;
+  height: 50px;
+}
+.slider-logo {
+  position: relative;
+  top: 5rem;
+  width: 100%;
+  height: 50px;
+}
+
+.slider-name {
+  width: 100%;
+  position: relative;
+  bottom: 0rem;
+  font-size: 20px;
+  color: #26c1d9;
+}
+
+.slider-text {
+  position: relative;
+  bottom: 6rem;
+  width: 100%;
+  font-size: 38px;
+}
+
+.Sliders input {
+  display: none;
+}
+
+/* BUTTON */
+
+.container-btn {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 48rem;
+  bottom: 15rem;
+  gap: 1rem;
+}
+
+.container-btn button {
+  display: block;
+  background-color: transparent;
+  width: 3.5rem;
+  height: 3.5rem;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.navigation {
+  display: flex;
+  position: relative;
+  top: 4rem;
+  left: -9.2rem;
+}
+
+.navigation .btn {
+  background: rgba(255, 255, 255, 0.5);
+  width: 12px;
+  height: 12px;
+  margin: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.navigation .btn.active {
+  background-color: #26c1d9;
+  border-radius: 14px;
+  animation: btnsAnimation 0.3s;
+  width: 24px;
+}
+
+@keyframes btnsAnimation {
+  0% {
+    width: 12px;
+  }
+  100% {
+    width: 24px;
+  }
+}

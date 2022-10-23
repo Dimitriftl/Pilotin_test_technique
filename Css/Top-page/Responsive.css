@@ -1,0 +1,9 @@
+@media all and (max-width: 1130px) {
+    .container-left-text h2 {
+        margin: 0;
+        padding: 0;
+        font-size: 60px;
+    }
+    
+
+}

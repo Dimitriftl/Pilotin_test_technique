@@ -1,0 +1,102 @@
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 6rem 3rem;
+  max-width: 1440px;
+}
+
+.container-left {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+}
+
+.container-left-text {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80%;
+}
+
+.container-left-text h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 72px;
+}
+
+.text-bleu {
+  color: #26c1d9;
+}
+
+.container-left-text p {
+  font-size: 17px;
+}
+
+.button-lets-talk-container {
+  width: 100%;
+}
+
+.lets-talk-button {
+  position: relative;
+  margin: 0.5rem 0 2rem 0;
+  height: 3rem;
+  width: 7.5rem;
+  border: 0px;
+  border-radius: 30px;
+  font-weight: 600;
+  background-color: #fd7762;
+
+  cursor: pointer;
+}
+
+.lets-talk-button:hover {
+  background-color: #ca5b4a;
+}
+
+.images-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.container-right {
+  width: 50%;
+}
+
+.container-right img {
+  width: 100%;
+}
+
+.data-cloud {
+  display: flex;
+  width: 100vw;
+  margin: 2rem 0 0 0;
+  font-size: 160px;
+  text-transform: uppercase;
+  font-weight: 600;
+  transform: rotate(-3.5deg);
+}
+
+.txtdata {
+  white-space: nowrap;
+  font-size: 160px;
+  opacity: 0.8;
+  color: #072038;
+  animation: scrollTxt 90s linear infinite;
+  text-shadow: 3px 0 #2be3ff, -3px 0 #2be3ff, 0 3px #2be3ff, 0 -3px #2be3ff,
+    2px 2px #2be3ff, -2px -2px #2be3ff, 2px -2px #2be3ff, -2px 2px #2be3ff;
+}
+
+.txtdata span {
+  color: #2be3ff;
+  text-shadow: none;
+}
+
+@keyframes scrollTxt {
+  0% {
+    transform: translate(0%, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}

@@ -1,0 +1,21 @@
+.maintenance-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.5rem;
+  width: 100vw;
+  max-width: 100vw;
+  gap: 2rem;
+  background: #f7fafb;
+  color: black;
+}
+
+.maintenance-container p {
+  font-size: 16px;
+}
+
+.maintenance-text-bleu {
+  color: #40c8dd;
+  font-weight: 600;
+  font-family: "outfit", Courier, monospace;
+}

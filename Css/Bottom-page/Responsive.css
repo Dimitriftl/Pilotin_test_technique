@@ -1,0 +1,19 @@
+@media all and (max-width: 1100px) {
+
+    .elements-container h4 {
+        font-size: 40px;
+        color: #26c1d9;
+      }
+
+      .elements-container h3 {
+        font-size: 32px;
+      }
+
+}
+
+
+@media all and (max-width: 930px) {
+    .elements-container {
+        flex-direction: column;
+    }
+}

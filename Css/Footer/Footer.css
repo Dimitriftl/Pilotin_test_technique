@@ -1,0 +1,159 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1440px;
+  height: 300px;
+  margin: 3rem 3rem 0 3rem;
+  overflow: hidden;
+}
+
+.footer-left {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  flex-wrap: wrap;
+}
+
+.footer-left-content {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding-left: 3rem;
+}
+
+.footer-container h4 {
+  position: relative;
+  top: 1rem;
+  font-size: 20px;
+  color: #156b79;
+}
+
+.footer-container a {
+  text-decoration: none;
+  color: #26c1d9;
+}
+
+.footer-container p {
+  font-size: 18px;
+  color: black;
+}
+
+.get-involver {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.get-involver a {
+  position: relative;
+  bottom: 3rem;
+}
+
+.Belgium {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.Belgium a {
+  /* position: relative;
+    bottom: 10px; */
+}
+
+/* FOOTER RIGHT */
+
+.footer-right {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  object-fit: cover;
+  overflow: hidden;
+  flex-wrap: wrap;
+}
+
+.footer-right-content {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 3rem;
+}
+
+.Ellipse-2 {
+  position: absolute;
+  right: 0;
+  width:20%;
+}
+
+.France {
+  width: 9.5rem;
+}
+.France p,
+a {
+  position: relative;
+  top: 1rem;
+}
+
+.suivez-nous {
+  position: relative;
+  
+  display: flex;
+  flex-wrap: wrap;
+  width: 20rem;
+  height: 100%;
+  height: 10rem;
+}
+
+.suivez-nous button {
+  display: block;
+  background-color: transparent;
+  width: 3rem;
+  height: 3rem;
+  border: 1px solid #072038;
+  border-radius: 50%;
+  color: #072038;
+  font-size: 20px;
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+
+.mentions-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 72px;
+    width: 100vw;
+    background-color: #EDF2F7;
+    font-size: 18px;
+}
+
+.mentions-content-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: black;
+}
+
+.mentions-content{ 
+    display: flex;
+    width: 100%;
+    max-width: 1360px;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.mentions-content span { 
+    font-weight: bold;
+    text-decoration: underline;
+}

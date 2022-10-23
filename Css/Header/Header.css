@@ -1,0 +1,116 @@
+header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  height: 4rem;
+  width: 100%;
+  margin-top: 0.5rem;
+  /* background: rgb(172, 26, 26); */
+}
+
+.header-container {
+  justify-content: space-between;
+}
+
+.header-container p {
+  color: #fff;
+  font-size: 16px;
+}
+
+/* LEFT */
+
+.logo-dFakto img {
+  position: relative;
+  top: 0.2rem;
+  width: 8rem;
+  margin: 0 3rem 0 5rem;
+}
+
+.about-left {
+  display: flex;
+  gap: 2rem;
+}
+
+.about-left p {
+  font-family: "outfit", Courier, monospace;
+}
+
+.products i {
+  width: 15px;
+  color: #fff;
+}
+
+.products {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+.Ressources {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+.Ressources i {
+  width: 15px;
+  color: #fff;
+}
+
+.company {
+  cursor: pointer;
+}
+
+/* RIGHT */
+
+.about-right {
+  display: flex;
+  align-items: center;
+  margin-right: 4rem;
+  gap: 1rem;
+}
+
+.about-right p {
+  font-size: 14px;
+  color: #26c1d9;
+  cursor: pointer;
+  font-family: "outfit", Courier, monospace;
+}
+
+.button-free-demo {
+  display: flex;
+}
+
+.about-right button {
+  position: relative;
+  height: 3rem;
+  width: 6.8rem;
+  border: 0px;
+  border-radius: 30px;
+  background-color: #26c1d9;
+  font-weight: bold;
+  font-family: "Porpora", Courier, monospace;
+  cursor: pointer;
+  font-size: 16px;
+}
+.about-right button:hover {
+  background-color: #1e9fb3;
+}
+
+.about-right i {
+  color: #26c1d9;
+  cursor: pointer;
+}
+
+.fr { 
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
