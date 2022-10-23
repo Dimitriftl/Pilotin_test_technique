@@ -67,11 +67,6 @@
   width: 50%;
 }
 
-.Belgium a {
-  /* position: relative;
-    bottom: 10px; */
-}
-
 /* FOOTER RIGHT */
 
 .footer-right {
@@ -93,7 +88,7 @@
 .Ellipse-2 {
   position: absolute;
   right: 0;
-  width:20%;
+  width: 20%;
 }
 
 .France {
@@ -107,7 +102,6 @@ a {
 
 .suivez-nous {
   position: relative;
-  
   display: flex;
   flex-wrap: wrap;
   width: 20rem;
@@ -122,38 +116,41 @@ a {
   height: 3rem;
   border: 1px solid #072038;
   border-radius: 50%;
-  color: #072038;
   font-size: 20px;
   cursor: pointer;
   margin-right: 0.5rem;
 }
 
+.suivez-nous button:hover {
+  border: 1px solid #26c1d9;
+}
+
 .mentions-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 72px;
-    width: 100vw;
-    background-color: #EDF2F7;
-    font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 72px;
+  width: 100vw;
+  background-color: #edf2f7;
+  font-size: 18px;
 }
 
-.mentions-content-container{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    color: black;
+.mentions-content-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  color: black;
 }
 
-.mentions-content{ 
-    display: flex;
-    width: 100%;
-    max-width: 1360px;
-    justify-content: space-between;
-    padding-left: 2rem;
-    padding-right: 2rem;
+.mentions-content {
+  display: flex;
+  width: 100%;
+  max-width: 1360px;
+  justify-content: space-between;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
-.mentions-content span { 
-    font-weight: bold;
-    text-decoration: underline;
+.mentions-content span {
+  font-weight: bold;
+  text-decoration: underline;
 }

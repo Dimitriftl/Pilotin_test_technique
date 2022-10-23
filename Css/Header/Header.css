@@ -33,6 +33,7 @@ header {
 
 .about-left {
   display: flex;
+  align-items: center;
   gap: 2rem;
 }
 
@@ -40,29 +41,18 @@ header {
   font-family: "outfit", Courier, monospace;
 }
 
-.products i {
+.about-left-content i {
   width: 15px;
   color: #fff;
 }
 
-.products {
+.about-left-content {
   display: flex;
   align-items: center;
   gap: 0.5rem;
   cursor: pointer;
 }
 
-.Ressources {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  cursor: pointer;
-}
-
-.Ressources i {
-  width: 15px;
-  color: #fff;
-}
 
 .company {
   cursor: pointer;

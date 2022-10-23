@@ -124,7 +124,7 @@
   width: 100%;
   min-height: 850px;
   background-color: #fff;
-  margin: 1.5rem 3rem 1rem 3rem;
+  margin: 1.5rem 3rem 20rem 3rem;
   border-radius: 25px;
   overflow: hidden;
 }
@@ -255,17 +255,14 @@
   border: 3px solid #f7fafb;
 }
 
-
 .S-circle-1 {
   position: relative;
   right: 126px;
- 
 }
 
 .M-circle-1 {
   position: relative;
-  right: 35px; 
-  
+  right: 35px;
 }
 
 .L-circle-1 {
@@ -273,9 +270,7 @@
   width: 100%;
   left: 60px;
   bottom: 3px;
-  
 }
-
 
 .pc-container-right {
   display: flex;
@@ -291,7 +286,6 @@
   font-size: 9px;
 }
 
-
 .carre-2 {
   display: flex;
   justify-content: center;
@@ -301,19 +295,18 @@
   border: 3px solid #f7fafb;
 }
 
-
-.S-circle-2 { 
+.S-circle-2 {
   position: relative;
   right: 130px;
 }
 
-.M-circle-2{
+.M-circle-2 {
   position: relative;
-  right: 45px; 
+  right: 45px;
   bottom: 29px;
 }
 
-.L-circle-2 { 
+.L-circle-2 {
   position: relative;
   left: 73px;
   bottom: 33px;
